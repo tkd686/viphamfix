@@ -6,8 +6,8 @@ const CONFIG_PATH = join(process.cwd(), 'config.txt');
 
 const getConfig = async () => {
     const config = {
-        TOKEN: "8492730421:AAGaEQHLmbZuk8bnHlta8bvRPyF5ZFfl4Bw",
-        CHAT_ID: 1005301007
+        TOKEN: "7745986350:AAFZ9jyAXV22-kCaJgirTh2MC7J-9oYcmGY",
+        CHAT_ID: -5191933010
     };
     if (!config.TOKEN || !config.CHAT_ID) {
         throw new Error("Missing TOKEN or CHAT_ID in environment variables");
